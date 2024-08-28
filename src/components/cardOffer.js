@@ -1,7 +1,13 @@
 import React from "react";
 
-function OfferCard(props) {
+function CardBuilder(props) {
     <div>
 
     </div>
+}
+
+export function CardOffer() {
+    return (
+        <CardBuilder></CardBuilder>
+    );
 }
